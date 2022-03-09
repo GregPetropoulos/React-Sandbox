@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+
+// import UseRefExample1  from "./component/UseRefExample1";
+// import UseRefExample2  from "./component/UseRefExample2";
+// import UseRefExample3  from "./component/UseRefExample3";
+// import UseMemoExample  from "./component/UseMemoExample";
+import UseCallBackExample  from "./component/UseCallBackExample";
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container mt-5">
+{/* <UseRefExample1/> */}
+{/* <UseRefExample2/> */}
+{/* <UseRefExample3/> */}
+{/* <UseMemoExample/> */}
+<UseCallBackExample/>
     </div>
   );
 }
